@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  color: rgb(59, 57, 71);
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nova Oval", cursive;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 2vh;
+  padding: 1vh;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(67, 16, 43, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(67, 16, 43, 0.35) 0px -2px 6px 0px inset;
+}
+
+.message {
+  border: none;
+  width: 50vh;
+  height: 30vh;
+  border-radius: 5px;
+  box-shadow: rgba(67, 16, 43, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(67, 16, 43, 0.35) 0px -2px 6px 0px inset;
+}
+
+label {
+  color: rgb(59, 57, 71);
+}
+
+.send-btn {
+  font-size: 20px;
+  padding: 1vh;
+  border: none;
+  margin-top: 2vh;
+  background-color: rgb(67, 16, 43);
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(240, 223, 210);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgb(0, 0, 0) 0px 30px 60px -30px, rgb(2, 6, 11) 0px -2px 6px 0px inset;
+}
+
+.send-btn:hover {
+  background-color: rgb(23, 5, 15);
+}
+
+.success {
+  text-align: center;
+  margin: 3vh;
+  font-size: 30px;
+}
