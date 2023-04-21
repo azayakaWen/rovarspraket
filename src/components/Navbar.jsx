@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import { GiHamburgerMenu } from "react-icons/gi"
+import "../style/Nabvar.css"
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -25,13 +26,19 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={() => setIsNavExpanded(false)}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={() => setIsNavExpanded(false)}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={() => setIsNavExpanded(false)}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
